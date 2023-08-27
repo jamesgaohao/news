@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    url:  jdbc:mysql://127.0.0.1:3306/news?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: "!QAZ2wsx"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#    druid:
+#      initial-size: 5
+#      max-active: 20
+#      min-idle: 5
+#      time-between-eviction-runs-millis: 60000
+#      max-wait: 60000
+#      min-evictable-idle-time-millis: 300000
+#      validation-query: SELECT 1
+#      test-while-idle: true
+#      testOnBorrow: false
+#      test-on-return: false
+#      pool-prepared-statements: true
+#      max-pool-prepared-statement-per-connection-size: 20
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #配置打印sql语句
+  type-aliases-package: com.caicai.*
