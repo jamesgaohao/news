@@ -3,11 +3,11 @@ spring:
     name: product-service
   datasource:
 #    url:  jdbc:mysql://127.0.0.1:3306/news?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
-    url:  jdbc:mysql://23.94.137.247:3399/news?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
+    url:  jdbc:mysql://xxx.xxx.xxx.xxxx:3399/news?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&allowPublicKeyRetrieval=true&useSSL=false
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-#    password: "!QAZ2wsx"
-    password: "1QAZ2wsx"
+#    password: "xxxxxx"
+    password: "xxxx"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #    druid:
