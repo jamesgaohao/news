@@ -5,7 +5,7 @@ spring:
     url:  jdbc:mysql://127.0.0.1:3306/news?zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: "!QAZ2wsx"
+    password: "xxxxxxx"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #    druid:
